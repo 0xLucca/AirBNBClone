@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
-contract airbnb {
+contract AirBNBClone {
 
     address public owner;
     uint256 private counter;
@@ -9,7 +9,7 @@ contract airbnb {
     constructor() {
         counter = 0;
         owner = msg.sender;
-     }
+    }
 
     struct rentalInfo {
         string name;
